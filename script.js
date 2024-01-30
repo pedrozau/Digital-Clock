@@ -17,9 +17,9 @@ setInterval(()=>{
   let s = new Date().getSeconds();
   let am = h >= 12 ? "PM" : "AM";
 
-  let hr_dot = document.querySelector('.hr_dot')
-  let min_dot = document.querySelector('.min_dot')
-  let sec_dot = document.querySelector('.sec_dot')
+  let hr_dot = document.querySelector('.hr_dot');
+  let min_dot = document.querySelector('.min_dot');
+  let sec_dot = document.querySelector('.sec_dot');
 
   if (h > 12) {
      h  = h - 12;
